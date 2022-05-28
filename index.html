@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sketchy</title>
+</head>
+<body>
+    <header>
+        <h1>SKETCHY</h1>
+    </header>
+    <section>
+        <div class="sidebar">
+            <div id="colorpickercontainer">
+                <input type="color" id="colorpicker" name="color picker" value="#fffff">
+                <label for="colorpicker">Pick A Color</label>
+            </div>
+            <button class="buttons" id="singlecolor">Color Mode</button>
+            <button class="buttons" id="rgb">Rainbow Mode</button>
+            <button class="buttons" id="eraser">Eraser</button>
+            <button class="buttons" id="clear">Clear</button>
+            <div class="slidecontainer">
+                <input type="range" min="2" max="100" value="20" class="slider" id="sizeofcanvas">
+                <label for="sizeofcanvas">Size</label>
+            </div>
+        </div>
+        <div class="canvas"></div>
+    </section>
+    <footer>
+        <p>	&#169; Made by Akash Silas for The Odin Project.</p>
+    </footer>
+</body>
+</html>
