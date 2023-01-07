@@ -14,14 +14,10 @@
     </header>
     <section>
         <div class="sidebar">
-            <div id="colorpickercontainer">
-                <input type="color" id="colorpicker" name="color picker" value="#000000"><br>
-                <label for="colorpicker">Pick a color</label>
-            </div>
-            <button class="buttons" id="singlecolor">Color Mode</button>
-            <button class="buttons" id="rgb">Rainbow Mode</button>
-            <button class="buttons" id="eraser">Eraser</button>
-            <button class="buttons" id="clear">Clear</button>
+            <button onclick="changeColor('black')" class="buttons" id="black">Black Mode</button>
+            <button onclick="changeColor('rainbow')" class="buttons" id="rgb">Rainbow Mode</button>
+            <button onclick="changeColor('white')" class="buttons" id="eraser">Eraser</button>
+            <button onclick="resetCanvas()" class="buttons" id="clear">Clear</button>
             <div class="slidecontainer">
                 <input type="range" min="2" max="100" value="20" id="sizeofcanvas" onchange="changeSize(this.value)"><br>
                 <label for="sizeofcanvas">Size of Canvas: <span id="rangevalue"></span></label>
