@@ -17,13 +17,49 @@ header {
 
 section {
     display: flex;
+    margin:50px;
     height: 70%;
+    gap:50px;
+    justify-content: center;
 }
 
 .sidebar {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    text-align: center;
+}
+
+#colorpickercontainer {
+    text-align: center;
+}
+
+#colorpicker {
+    width:50px;
+    height: 50px;
+    margin: 5px;
+}
+
+button {
+    background-color: antiquewhite;
+    color: black;
+    height: 50px;
+}
+
+#sizeofcanvas {
+    color: antiquewhite;
+    accent-color: black;
+}
+
+#canvas {
+    align-self: center;
+    border: 5px solid black;
+    aspect-ratio: 1 / 1;
+    width: 70%;
+    max-width:400px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 footer {
