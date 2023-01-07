@@ -57,8 +57,7 @@ button {
     aspect-ratio: 1 / 1;
     width: 70%;
     max-width:400px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     
 }
 

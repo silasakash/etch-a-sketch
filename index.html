@@ -23,7 +23,7 @@
             <button class="buttons" id="eraser">Eraser</button>
             <button class="buttons" id="clear">Clear</button>
             <div class="slidecontainer">
-                <input type="range" min="2" max="100" value="20" id="sizeofcanvas"><br>
+                <input type="range" min="2" max="100" value="20" id="sizeofcanvas" onchange="changeSize(this.value)"><br>
                 <label for="sizeofcanvas">Size of Canvas: <span id="rangevalue"></span></label>
             </div>
         </div>
